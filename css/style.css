@@ -137,7 +137,7 @@ a:hover,
 
 .footer -menu li a:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
     text-decoration: none;
 
@@ -455,7 +455,7 @@ label {
 
     -moz-user-select: none;
 
-    background: #fdc800;
+    background: #FFEE00;
 
     border: medium none;
 
@@ -549,7 +549,7 @@ label {
 
 	padding: 16px 35px;
 
-	background-color: #fdc800;
+	background-color: #FFEE00;
 
 	text-transform: uppercase;
 
@@ -619,7 +619,7 @@ label {
 
 .black-border:hover {
 
-    background: #fdc800;
+    background: #FFEE00;
 
     border: 1px solid transparent;
 
@@ -655,7 +655,7 @@ label {
 
 .white-bg-btn:hover {
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     color: #002147;
 
@@ -723,7 +723,7 @@ label {
 
     height: 100%;
 
-    background: #fdc800;
+    background: #FFEE00;
 
     z-index: 1;
 
@@ -859,7 +859,7 @@ label {
 
 #scrollUp {
 
-    background: #FDC800;
+    background: #FFEE00;
 
     height: 40px;
 
@@ -955,7 +955,7 @@ label {
 
 .header-contact span {
 
-    color: #fdc800;
+    color: #FFEE00;
 
     vertical-align: middle;
 
@@ -983,7 +983,7 @@ label {
 
     font-size: 12px;
 
-    color: #fdc800;
+    color: #FFEE00;
 
     margin-left: 19px;
 
@@ -1069,7 +1069,7 @@ li.shopping-cart a {
 
     border-radius: 50%;
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     color: #444444;
 
@@ -1219,7 +1219,7 @@ li.shopping-cart a {
 
 .main-menu ul li:hover > a {
 
-    color: #fdc800
+    color: #FFEE00
 
 }
 
@@ -1299,7 +1299,7 @@ li.shopping-cart a {
 
 .main-menu ul li ul.submenu li:hover > a {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -1449,7 +1449,7 @@ li.shopping-cart a {
 
 .header-bottom-icon-white ul li a:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
     transition: .4s;
 
@@ -1529,7 +1529,7 @@ li.shopping-cart a {
 
 .slider-active .slick-arrow:hover {
 
-    color: #FDC800;
+    color: #FFEE00;
 
 }
 
@@ -1599,7 +1599,7 @@ li.shopping-cart a {
 
 .slider-active-2 .slick-dots li.slick-active button {
 
-    border: 1px solid #FDC800;
+    border: 1px solid #FFEE00;
 
 }
 
@@ -1857,7 +1857,7 @@ li.shopping-cart a {
 
 .slider-social-icons-list ul li a:hover {
 
-    color: #FDC800;
+    color: #FFEE00;
 
 }
 
@@ -1977,7 +1977,7 @@ li.shopping-cart a {
 
 .slider-active-3 .slick-next.slick-arrow:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -2115,7 +2115,7 @@ li.shopping-cart a {
 
 	padding-left: 30px;
 
-	border-left: 5px solid #fdc800;
+	border-left: 5px solid #FFEE00;
 
 	padding-right: 23px;
 
@@ -2125,7 +2125,7 @@ li.shopping-cart a {
 
 	/* width: 323px; */
 
-	margin-right: 25px;
+	/* margin-right: 25px; */
 
 }
 
@@ -2363,7 +2363,7 @@ li.shopping-cart a {
 
     font-family: "Josefin Sans", sans-serif;
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     padding: 9px 15px;
 
@@ -2413,7 +2413,7 @@ li.shopping-cart a {
 
 .courses-heading h1:focus a {
 
-    color: #fdc800 !important;
+    color: #FFEE00 !important;
 
 }
 
@@ -2505,7 +2505,7 @@ li.shopping-cart a {
 
 .courses-button:hover a {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -2715,7 +2715,7 @@ li.shopping-cart a {
 
 .courses-active .slick-arrow:hover {
 
-    color: #FDC800;
+    color: #FFEE00;
 
 }
 
@@ -2765,7 +2765,7 @@ li.shopping-cart a {
 
 .courses-button-2:hover a {
 
-    color: #fdc800;
+    color: #FFEE00;
 
     text-decoration: underline;
 
@@ -2829,7 +2829,7 @@ li.shopping-cart a {
 
     display: inline-block;
 
-    background: #fdc800;
+    background: #FFEE00;
 
     border-radius: 30px;
 
@@ -2871,7 +2871,7 @@ li.shopping-cart a {
 
 .btn.gray-border-btn:hover {
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     border: 1px solid transparent;
 
@@ -2903,7 +2903,7 @@ li.shopping-cart a {
 
     font-size: 24px;
 
-    color: #fdc800;
+    color: #FFEE00;
 
     font-weight: 500;
 
@@ -2923,7 +2923,7 @@ li.shopping-cart a {
 
 .slider-content nav ol li.breadcrumb-item a {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -3229,7 +3229,7 @@ span.student-lecture-number {
 
 .advisors-social-icon-list ul li:hover a {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -3853,7 +3853,7 @@ span.student-lecture-number {
 
 .team-social-icon-list ul li a:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -3947,7 +3947,7 @@ span.student-lecture-number {
 
     padding-bottom: 25px;
 
-    border-bottom: 2px solid #fdc800;
+    border-bottom: 2px solid #FFEE00;
 
     border-radius: 5px;
 
@@ -3999,7 +3999,7 @@ span.student-lecture-number {
 
 .team-wrapper-2:hover .team-teacher-info-2 h1 {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -4101,7 +4101,7 @@ span.student-lecture-number {
 
 .events-text-title a h4:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -4113,7 +4113,7 @@ span.student-lecture-number {
 
     display: inline-block;
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     border-radius: 5px;
 
@@ -4165,7 +4165,7 @@ span.student-lecture-number {
 
     line-height: 1;
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -4245,7 +4245,7 @@ span.published-time {
 
     border: 0;
 
-    color: #fdc800;
+    color: #FFEE00;
 
     font-weight: 700;
 
@@ -4375,7 +4375,7 @@ span.published-time {
 
 .events-details-socila-icon ul li a:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -4459,7 +4459,7 @@ span.published-time {
 
 .events-view-btn a:hover {
 
-    color: #FDC800;
+    color: #FFEE00;
 
 }
 
@@ -4571,7 +4571,7 @@ span.published-time {
 
 .events-view-btn button:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -4579,7 +4579,7 @@ span.published-time {
 
 .events-details-form form .events-form-btn button {
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     color: #002147
 
@@ -4827,7 +4827,7 @@ span.published-time.published-location {
 
 .events-text-title-3 .time-area span {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -4918,7 +4918,7 @@ span.published-time.published-location {
 
 .comments-text a:hover {
 
-    color: #FDC800;
+    color: #FFEE00;
 
 }
 
@@ -5090,7 +5090,7 @@ span.published-time.published-location {
 
     display: inline-block;
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -5154,7 +5154,7 @@ span.published-time.published-location {
 
     transition: .3s;
 
-    border: 1px solid #fdc800;
+    border: 1px solid #FFEE00;
 
 }
 
@@ -5164,7 +5164,7 @@ span.published-time.published-location {
 
 .testimonilas-active-2 .slick-dots li.slick-active button {
 
-    background: #fdc800;
+    background: #FFEE00;
 
     transition: .3s;
 
@@ -5398,7 +5398,7 @@ span.published-time.published-location {
 
 .blue-blog h5 a:hover {
 
-    color: #FDC800
+    color: #FFEE00
 
 }
 
@@ -5498,7 +5498,7 @@ span.published-time.published-location {
 
 .read-more-btn button:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -5518,7 +5518,7 @@ span.published-time.published-location {
 
     padding: 11px 15px;
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     border-radius: 5px;
 
@@ -5646,7 +5646,7 @@ span.published-time.published-location {
 
     padding: 11px 15px;
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     display: inline-block;
 
@@ -6050,7 +6050,7 @@ span.published-time.published-location {
 
 .faq-form-btn button:hover {
 
-    background-color: #FDC800;
+    background-color: #FFEE00;
 
     color: #002147;
 
@@ -6100,7 +6100,7 @@ span.published-time.published-location {
 
     padding: 40px 0px;
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
 }
 
@@ -6210,7 +6210,7 @@ span.published-time.published-location {
 
     padding: 40px 0px;
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
     margin-bottom: -73px;
 
@@ -6382,7 +6382,7 @@ span.published-time.published-location {
 
     font-size: 16px;
 
-    background-color: #fdc800;
+    background-color: #FFEE00;
 
 }
 
@@ -6542,7 +6542,7 @@ span.published-time.published-location {
 
     font-size: 24px;
 
-    color: #fdc800;
+    color: #FFEE00;
 
     font-weight: 700;
 
@@ -6590,7 +6590,7 @@ span.published-time.published-location {
 
 .footer-menu ul li a:hover {
 
-    color: #fdc800;
+    color: #FFEE00;
 
     opacity: 1;
 
@@ -6644,7 +6644,7 @@ span.footer-published-time {
 
     margin: 0;
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
@@ -6672,7 +6672,7 @@ span.footer-published-time {
 
     font-size: 14px;
 
-    color: #fdc800;
+    color: #FFEE00;
 
 }
 
