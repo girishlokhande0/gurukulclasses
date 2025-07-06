@@ -1176,37 +1176,86 @@ body::after{
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6 col-md-10 offset-md-1 ml-md-auto">
-                    <div class="events-details-form faq-area-form mb-30 p-0">
-                        <form>
-                            <div class="row">
-                                <div class="col-xl-8">
-                                    <div class="events-form-title mb-25">
-                                        <h2>Do You Have Any Questions</h2>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <input placeholder="Name :" type="text">
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <input placeholder="Email :" type="text">
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <input placeholder="Subject :" type="text">
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <input placeholder="Contact Number :" type="number">
-                                </div>
-                                <div class="col-xl-12">
-                                    <textarea cols="30" rows="10" placeholder="Message :"></textarea>
-                                </div>
-                                <div class="col-xl-12">
-                                    <div class="faq-form-btn events-form-btn">
-                                        <button class="btn m-0">submit now</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+       
+<div class="events-details-form faq-area-form mb-30 p-0">
+    <form id="contactForm">
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="events-form-title mb-25">
+                    <h2>Do You Have Any Questions</h2>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <input name="name" placeholder="Name :" type="text" required>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <input name="email" placeholder="Email :" type="email" required>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <input name="subject" placeholder="Subject :" type="text" required>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <input name="contact" placeholder="Contact Number :" type="tel" required>
+            </div>
+            <div class="col-xl-12">
+                <textarea name="message" cols="30" rows="10" placeholder="Message :" required></textarea>
+            </div>
+            <div class="col-xl-12">
+                <div class="faq-form-btn events-form-btn">
+                    <button type="submit" class="btn m-0">submit now</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+    <!-- Loading and success messages -->
+    <div id="loading" style="display: none; text-align: center; margin-top: 20px;">
+        <p>Submitting...</p>
+    </div>
+    <div id="success" style="display: none; text-align: center; margin-top: 20px; color: green;">
+        <p>Thank you! Your message has been sent successfully.</p>
+    </div>
+    <div id="error" style="display: none; text-align: center; margin-top: 20px; color: red;">
+        <p>Sorry, there was an error. Please try again.</p>
+    </div>
+</div>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Show loading message
+    document.getElementById('loading').style.display = 'block';
+    document.getElementById('success').style.display = 'none';
+    document.getElementById('error').style.display = 'none';
+    
+    // Get form data
+    const formData = new FormData(this);
+    
+    // Replace 'YOUR_WEB_APP_URL' with the actual URL from Step 3
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxz66z8OxjkksDaiSWbt4PRMeHBBm2fFfr4M_1-TLAeR0s0oUVnEsp3K-eDT5Uh30nxUw/exec';
+    
+    fetch(scriptURL, {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById('loading').style.display = 'none';
+        if (data.result === 'success') {
+            document.getElementById('success').style.display = 'block';
+            document.getElementById('contactForm').reset();
+        } else {
+            document.getElementById('error').style.display = 'block';
+        }
+    })
+    .catch(error => {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error').style.display = 'block';
+        console.error('Error:', error);
+    });
+});
+</script>
                 </div>
             </div>
         </div>
